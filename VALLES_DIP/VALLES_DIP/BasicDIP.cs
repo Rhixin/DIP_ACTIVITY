@@ -109,5 +109,54 @@ namespace VALLES_DIP
 
 
         }
+
+        public static void Rotate(ref Bitmap a, ref Bitmap b, int value)
+        {
+            float angleRadians = (float)(value * Math.PI / 180);
+            float sinA = (float)Math.Sin(angleRadians);
+            float cosB = (float)Math.Cos(angleRadians);
+
+            int width = a.Width;
+            int height = a.Height;
+
+            int xcenter = (int)(width / 2);
+            int ycenter = (int)(height / 2);
+
+            int xp, yp, xs, ys, x0, y0;
+
+            b = new Bitmap(width, height);
+
+            for (xp = 0; xp < width; xp++) {
+                for (yp = 0; yp < height; yp++) { 
+                    x0 = xp - xcenter;
+                    y0 = yp - ycenter;
+
+                    xs = (int)(x0 * cosB + y0 * sinA) + xcenter;
+                    ys = (int)(-x0 * sinA + y0 * cosB) + ycenter;
+
+                    b.SetPixel(xp, yp, a.GetPixel(Math.Max(Math.Min(width - 1, xs), 0),Math.Max(Math.Min(height - 1, ys), 0)));
+                
+                }
+            }
+        }
+
+        public static void Scale(ref Bitmap a, ref Bitmap b, int nwidth, int nheight) {
+            int width = a.Width;
+            int height = a.Height;
+
+            int xs, ys;
+
+            b = new Bitmap(nwidth, nheight);
+            for (int x = 0; x < nwidth; x++) {
+                for (int y = 0; y < nheight; y++) { 
+                    xs = (int) (x * width / nwidth);
+                    ys = (int) (y * height / nheight);
+
+                    b.SetPixel(x, y, a.GetPixel(xs,ys));
+
+                }
+            }
+        
+        }
     }
 }

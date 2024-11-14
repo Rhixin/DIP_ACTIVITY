@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             menuStrip1 = new MenuStrip();
             toolStripMenuItem1 = new ToolStripMenuItem();
             openToolStripMenuItem = new ToolStripMenuItem();
@@ -38,6 +39,10 @@
             inversionToolStripMenuItem = new ToolStripMenuItem();
             histogramToolStripMenuItem = new ToolStripMenuItem();
             sepiaToolStripMenuItem = new ToolStripMenuItem();
+            onToolStripMenuItem = new ToolStripMenuItem();
+            offToolStripMenuItem = new ToolStripMenuItem();
+            vIDEOToolStripMenuItem = new ToolStripMenuItem();
+            grayscaleToolStripMenuItem1 = new ToolStripMenuItem();
             openFileDialog1 = new OpenFileDialog();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
@@ -52,9 +57,9 @@
             button3 = new Button();
             openFileDialog2 = new OpenFileDialog();
             openFileDialog3 = new OpenFileDialog();
-            button4 = new Button();
             button5 = new Button();
             saveFileDialog2 = new SaveFileDialog();
+            timer1 = new System.Windows.Forms.Timer(components);
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -66,7 +71,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, dIPToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, dIPToolStripMenuItem, onToolStripMenuItem, offToolStripMenuItem, vIDEOToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1449, 24);
@@ -136,6 +141,34 @@
             sepiaToolStripMenuItem.Size = new Size(128, 22);
             sepiaToolStripMenuItem.Text = "sepia";
             sepiaToolStripMenuItem.Click += sepiaToolStripMenuItem_Click;
+            // 
+            // onToolStripMenuItem
+            // 
+            onToolStripMenuItem.Name = "onToolStripMenuItem";
+            onToolStripMenuItem.Size = new Size(33, 20);
+            onToolStripMenuItem.Text = "on";
+            onToolStripMenuItem.Click += onToolStripMenuItem_Click;
+            // 
+            // offToolStripMenuItem
+            // 
+            offToolStripMenuItem.Name = "offToolStripMenuItem";
+            offToolStripMenuItem.Size = new Size(34, 20);
+            offToolStripMenuItem.Text = "off";
+            offToolStripMenuItem.Click += offToolStripMenuItem_Click;
+            // 
+            // vIDEOToolStripMenuItem
+            // 
+            vIDEOToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { grayscaleToolStripMenuItem1 });
+            vIDEOToolStripMenuItem.Name = "vIDEOToolStripMenuItem";
+            vIDEOToolStripMenuItem.Size = new Size(52, 20);
+            vIDEOToolStripMenuItem.Text = "VIDEO";
+            // 
+            // grayscaleToolStripMenuItem1
+            // 
+            grayscaleToolStripMenuItem1.Name = "grayscaleToolStripMenuItem1";
+            grayscaleToolStripMenuItem1.Size = new Size(180, 22);
+            grayscaleToolStripMenuItem1.Text = "grayscale";
+            grayscaleToolStripMenuItem1.Click += grayscaleToolStripMenuItem1_Click_1;
             // 
             // openFileDialog1
             // 
@@ -257,15 +290,6 @@
             openFileDialog3.FileName = "openFileDialog3";
             openFileDialog3.FileOk += openFileDialog3_FileOk;
             // 
-            // button4
-            // 
-            button4.Location = new Point(0, 0);
-            button4.Name = "button4";
-            button4.Size = new Size(75, 23);
-            button4.TabIndex = 11;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
             // button5
             // 
             button5.BackColor = Color.Lime;
@@ -281,13 +305,17 @@
             // 
             saveFileDialog2.FileOk += saveFileDialog2_FileOk;
             // 
+            // timer1
+            // 
+            timer1.Interval = 1;
+            timer1.Tick += timer1_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1449, 874);
             Controls.Add(button5);
-            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -341,8 +369,12 @@
         private OpenFileDialog openFileDialog2;
         private OpenFileDialog openFileDialog3;
         private ToolStripMenuItem sepiaToolStripMenuItem;
-        private Button button4;
         private Button button5;
         private SaveFileDialog saveFileDialog2;
+        private ToolStripMenuItem onToolStripMenuItem;
+        private ToolStripMenuItem offToolStripMenuItem;
+        private ToolStripMenuItem vIDEOToolStripMenuItem;
+        private ToolStripMenuItem grayscaleToolStripMenuItem1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

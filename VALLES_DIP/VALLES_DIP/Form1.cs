@@ -1,4 +1,6 @@
 using System.Windows.Forms;
+using WebCamLib;
+using ImageProcess2;
 
 namespace VALLES_DIP
 {
@@ -6,6 +8,8 @@ namespace VALLES_DIP
     {
 
         Bitmap loaded, processed, image, background, subtracted;
+        Device[] devices;
+
         public Form1()
         {
             InitializeComponent();
@@ -13,7 +17,7 @@ namespace VALLES_DIP
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            devices = DeviceManager.GetAllDevices();
         }
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
@@ -182,6 +186,40 @@ namespace VALLES_DIP
         private void saveFileDialog2_FileOk(object sender, System.ComponentModel.CancelEventArgs e)
         {
             subtracted.Save(saveFileDialog2.FileName);
+        }
+
+        private void onToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            devices[0].ShowWindow(pictureBox1);
+        }
+
+        private void offToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            devices[0].Stop();
+        }
+
+
+
+        private void grayscaleToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            //get 1 frame
+            IDataObject data;
+            Image bmap;
+            devices[0].Sendmessage();
+            data = Clipboard.GetDataObject();
+            bmap = (Image)(data.GetData("System.Drawing.Bitmap", true));
+            Bitmap b = new Bitmap(bmap);
+
+            BitmapFilter.GrayScale(b);
+
+            pictureBox2.Image = b;
+
+            
         }
     }
 }
