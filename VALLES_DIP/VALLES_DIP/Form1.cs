@@ -196,6 +196,7 @@ namespace VALLES_DIP
         private void offToolStripMenuItem_Click(object sender, EventArgs e)
         {
             devices[0].Stop();
+            timer1.Stop();
         }
 
 
@@ -219,7 +220,64 @@ namespace VALLES_DIP
 
             pictureBox2.Image = b;
 
-            
+
+        }
+
+
+        private void smoothingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Smooth(processed, 1);
+            pictureBox2.Image = processed;
+        }
+
+        private void gaussianBlurToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.GaussianBlur(processed, 20);
+            pictureBox2.Image = processed;
+        }
+
+        private void sharpenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.Sharpen(processed, 11);
+            pictureBox2.Image = processed;
+        }
+
+        private void meanRemovalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.MeanRemoval(processed, 9);
+            pictureBox2.Image = processed;
+        }
+
+        private void embossingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EmbossLaplacian(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void edgeDetectQuickToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EdgeDetectQuick(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void edgeDetectHorizontalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EdgeDetectHorizontal(processed);
+            pictureBox2.Image = processed;
+        }
+
+        private void edgeDetectVerticalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            processed = new Bitmap(loaded);
+            BitmapFilter.EdgeDetectVertical(processed);
+            pictureBox2.Image = processed;
         }
     }
 }
