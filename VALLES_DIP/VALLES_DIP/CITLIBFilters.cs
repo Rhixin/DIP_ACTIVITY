@@ -12,6 +12,7 @@ CITBADROBOT@GMAIL.COM
 using System;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Security.Policy;
 
 namespace ImageProcess2
 {
@@ -108,7 +109,45 @@ namespace ImageProcess2
 			return true;
 		}
 
-		public static bool Brightness(Bitmap b, int nBrightness)
+        public static bool Binary(Bitmap b, int threshold)
+        {
+            // Lock the bitmap's bits for better performance during pixel manipulation.
+            BitmapData bmData = b.LockBits(new Rectangle(0, 0, b.Width, b.Height), ImageLockMode.ReadWrite, PixelFormat.Format24bppRgb);
+
+            int stride = bmData.Stride;
+            System.IntPtr Scan0 = bmData.Scan0;
+
+            unsafe
+            {
+                byte* p = (byte*)(void*)Scan0;
+                int nOffset = stride - b.Width * 3;
+
+                for (int y = 0; y < b.Height; ++y)
+                {
+                    for (int x = 0; x < b.Width; ++x)
+                    {
+                        // Access the blue channel (grayscale ensures all channels are the same)
+                        byte grayValue = p[0];
+
+                        // Apply the threshold: if the gray value is less than the threshold, set it to black; otherwise, set it to white.
+                        byte binaryValue = (grayValue < threshold) ? (byte)0 : (byte)255;
+
+                        // Update all three channels to the binary value
+                        p[0] = p[1] = p[2] = binaryValue;
+
+                        p += 3; // Move to the next pixel
+                    }
+                    p += nOffset; // Skip the padding at the end of each row
+                }
+            }
+
+            // Unlock the bits after processing
+            b.UnlockBits(bmData);
+
+            return true;
+        }
+
+        public static bool Brightness(Bitmap b, int nBrightness)
 		{
 			if (nBrightness < -255 || nBrightness > 255)
 				return false;

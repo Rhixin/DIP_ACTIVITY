@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VALLES_DIP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e0b4b5031fc5725554e673375f6b51bec432373")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2cfd373c96f8022aa8fa357d5f5af5bb92eb2c78")]
 [assembly: System.Reflection.AssemblyProductAttribute("VALLES_DIP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VALLES_DIP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
