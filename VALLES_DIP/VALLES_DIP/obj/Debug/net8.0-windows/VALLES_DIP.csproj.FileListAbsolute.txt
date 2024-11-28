@@ -16,3 +16,22 @@ D:\3RD YEAR\IS\DIP ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLE
 D:\3RD YEAR\IS\DIP ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.genruntimeconfig.cache
 D:\3RD YEAR\IS\DIP ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\ref\VALLES_DIP.dll
 D:\3RD YEAR\IS\DIP ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.Properties.Resources.resources
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\bin\Debug\net8.0-windows\VALLES_DIP.exe
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\bin\Debug\net8.0-windows\VALLES_DIP.deps.json
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\bin\Debug\net8.0-windows\VALLES_DIP.runtimeconfig.json
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\bin\Debug\net8.0-windows\VALLES_DIP.dll
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\bin\Debug\net8.0-windows\VALLES_DIP.pdb
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.Form1.resources
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.Form2.resources
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.Properties.Resources.resources
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.csproj.GenerateResource.cache
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.GeneratedMSBuildEditorConfig.editorconfig
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.AssemblyInfoInputs.cache
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.AssemblyInfo.cs
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.csproj.CoreCompileInputs.cache
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.sourcelink.json
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.dll
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\refint\VALLES_DIP.dll
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.pdb
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\VALLES_DIP.genruntimeconfig.cache
+D:\3RD YEAR\DIP_ACTIVITY\VALLES_DIP\VALLES_DIP\obj\Debug\net8.0-windows\ref\VALLES_DIP.dll

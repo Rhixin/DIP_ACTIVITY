@@ -279,5 +279,11 @@ namespace VALLES_DIP
             BitmapFilter.EdgeDetectVertical(processed);
             pictureBox2.Image = processed;
         }
+
+        private void coinsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
+        }
     }
 }

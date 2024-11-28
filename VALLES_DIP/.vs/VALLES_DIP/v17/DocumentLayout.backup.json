@@ -1,37 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\",
+  "WorkspaceRootPath": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\valles_dip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\valles_dip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\citlibfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\citlibfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\citlibfilters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\basicdip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\valles_dip.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\valles_dip.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\valles_dip.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\is\\dip activity\\valles_dip\\valles_dip\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|d:\\3rd year\\dip_activity\\valles_dip\\valles_dip\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{677F07FD-D94C-4E18-969C-D71714D58CDF}|VALLES_DIP\\VALLES_DIP.csproj|solutionrelative:valles_dip\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -45,93 +49,96 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VALLES_DIP",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
-              "RelativeDocumentMoniker": "VALLES_DIP\\VALLES_DIP.csproj",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
-              "RelativeToolTip": "VALLES_DIP\\VALLES_DIP.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T01:14:29.858Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeviceManager.cs",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\DeviceManager.cs",
-              "RelativeDocumentMoniker": "VALLES_DIP\\DeviceManager.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\DeviceManager.cs",
-              "RelativeToolTip": "VALLES_DIP\\DeviceManager.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form2.cs",
+              "RelativeDocumentMoniker": "VALLES_DIP\\Form2.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form2.cs [Design]",
+              "RelativeToolTip": "VALLES_DIP\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:11:06.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T12:52:06.963Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Device.cs",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Device.cs",
-              "RelativeDocumentMoniker": "VALLES_DIP\\Device.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Device.cs",
-              "RelativeToolTip": "VALLES_DIP\\Device.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:11:02.979Z",
-              "EditorCaption": ""
+              "Title": "VALLES_DIP",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
+              "RelativeDocumentMoniker": "VALLES_DIP\\VALLES_DIP.csproj",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
+              "RelativeToolTip": "VALLES_DIP\\VALLES_DIP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-14T01:14:29.858Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CITLIBFilters.cs",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\CITLIBFilters.cs",
-              "RelativeDocumentMoniker": "VALLES_DIP\\CITLIBFilters.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\CITLIBFilters.cs",
-              "RelativeToolTip": "VALLES_DIP\\CITLIBFilters.cs",
-              "ViewState": "AgIAABkCAAAAAAAAAADgvyMCAAAVAAAAAAAAAA==",
+              "Title": "DeviceManager.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\DeviceManager.cs",
+              "RelativeDocumentMoniker": "VALLES_DIP\\DeviceManager.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\DeviceManager.cs",
+              "RelativeToolTip": "VALLES_DIP\\DeviceManager.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T01:11:01.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T01:11:06.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Device.cs",
+              "RelativeDocumentMoniker": "VALLES_DIP\\Device.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Device.cs",
+              "RelativeToolTip": "VALLES_DIP\\Device.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAACEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:11:02.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CITLIBFilters.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\CITLIBFilters.cs",
+              "RelativeDocumentMoniker": "VALLES_DIP\\CITLIBFilters.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\CITLIBFilters.cs",
+              "RelativeToolTip": "VALLES_DIP\\CITLIBFilters.cs",
+              "ViewState": "AgIAABkCAAAAAAAAAADgvyMCAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:11:01.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BasicDIP.cs",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\BasicDIP.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\BasicDIP.cs",
               "RelativeDocumentMoniker": "VALLES_DIP\\BasicDIP.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\BasicDIP.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\BasicDIP.cs",
               "RelativeToolTip": "VALLES_DIP\\BasicDIP.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAowIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T13:58:21.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T13:58:21.271Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs",
               "RelativeDocumentMoniker": "VALLES_DIP\\Form1.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs",
               "RelativeToolTip": "VALLES_DIP\\Form1.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAWwOwAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAwBAAAAAAAAAIA6wB0BAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T11:37:58.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.Designer.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "VALLES_DIP\\Form1.Designer.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.Designer.cs",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.Designer.cs",
               "RelativeToolTip": "VALLES_DIP\\Form1.Designer.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAiwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -139,12 +146,16 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs",
+              "DocumentMoniker": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs",
               "RelativeDocumentMoniker": "VALLES_DIP\\Form1.cs",
-              "ToolTip": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs [Design]",
+              "ToolTip": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\Form1.cs [Design]",
               "RelativeToolTip": "VALLES_DIP\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T12:02:16.895Z",

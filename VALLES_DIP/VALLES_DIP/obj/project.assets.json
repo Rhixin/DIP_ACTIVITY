@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
+      "projectUniqueName": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
       "projectName": "VALLES_DIP",
-      "projectPath": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
+      "projectPath": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\VALLES_DIP.csproj",
       "packagesPath": "C:\\Users\\Zhazted Rhixin\\.nuget\\packages\\",
-      "outputPath": "D:\\3RD YEAR\\IS\\DIP ACTIVITY\\VALLES_DIP\\VALLES_DIP\\obj\\",
+      "outputPath": "D:\\3RD YEAR\\DIP_ACTIVITY\\VALLES_DIP\\VALLES_DIP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -68,6 +68,7 @@
             button5 = new Button();
             saveFileDialog2 = new SaveFileDialog();
             timer1 = new System.Windows.Forms.Timer(components);
+            coinsToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -79,7 +80,7 @@
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, dIPToolStripMenuItem, onToolStripMenuItem, offToolStripMenuItem, vIDEOToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { toolStripMenuItem1, dIPToolStripMenuItem, onToolStripMenuItem, offToolStripMenuItem, vIDEOToolStripMenuItem, coinsToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(1449, 24);
@@ -374,6 +375,13 @@
             timer1.Interval = 1;
             timer1.Tick += timer1_Tick;
             // 
+            // coinsToolStripMenuItem
+            // 
+            coinsToolStripMenuItem.Name = "coinsToolStripMenuItem";
+            coinsToolStripMenuItem.Size = new Size(49, 20);
+            coinsToolStripMenuItem.Text = "Coins";
+            coinsToolStripMenuItem.Click += coinsToolStripMenuItem_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -448,5 +456,6 @@
         private ToolStripMenuItem edgeDetectQuickToolStripMenuItem;
         private ToolStripMenuItem edgeDetectHorizontalToolStripMenuItem;
         private ToolStripMenuItem edgeDetectVerticalToolStripMenuItem;
+        private ToolStripMenuItem coinsToolStripMenuItem;
     }
 }
