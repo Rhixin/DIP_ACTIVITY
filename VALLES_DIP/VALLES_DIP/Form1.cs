@@ -12,7 +12,6 @@ namespace VALLES_DIP
 
         public Form1()
         {
-            //here
             InitializeComponent();
         }
 
